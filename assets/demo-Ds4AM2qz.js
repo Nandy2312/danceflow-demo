@@ -1,0 +1,1 @@
+import{r as s,a as t}from"./index-B6cC1G_1.js";let c;const a=()=>c??(c=t.mode==="mock"?Promise.resolve(!0):t.demoAccounts().then(e=>e.length>0,()=>!1));function u(){const[e,r]=s.useState(t.mode==="mock");return s.useEffect(()=>{let o=!0;return a().then(m=>o&&r(m)),()=>{o=!1}},[]),e}export{u};
